@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller=".ConsulterPFEController">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="140.0" prefWidth="703.0" style="-fx-background-color: #0598ff;">
+         <children>
+            <Button layoutX="658.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pics/icons8-close-30%20(1).png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="14.0" layoutY="15.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pics/icons8-back-arrow-31.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="WHITE" layoutX="106.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Affecter un encadrant à un PFE">
+               <font>
+                  <Font name="Arial Bold" size="33.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="218.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*CIN étudiant 1 :">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*CIN encadrant :">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="333.0" layoutY="186.0" />
+      <TextField layoutX="333.0" layoutY="236.0" />
+      <TextField layoutX="333.0" layoutY="288.0" />
+      <Button layoutX="235.0" layoutY="362.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: #0598ff;" text="Affecter" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="363.0" layoutY="362.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: #70A2C5;" text="Annuler" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="218.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" CIN étudiant 2 :">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#fa3636" layoutX="14.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Les champs marquées avec * sont obligatoire" underline="true" />
+   </children>
+</AnchorPane>

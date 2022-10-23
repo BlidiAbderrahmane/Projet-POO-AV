@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EspaceAdministrateurController">
+   <children>
+      <ImageView fitHeight="528.0" fitWidth="766.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pics/education-graduation.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="16.0" layoutY="17.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/icons8-back-arrow-30.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="717.0" layoutY="23.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/icons8-close-30.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane layoutX="183.0" layoutY="56.0" prefHeight="68.0" prefWidth="448.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="11.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Espace Administrateur">
+               <font>
+                  <Font name="Arial Bold" size="39.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="42.0" layoutY="344.0" prefHeight="135.0" prefWidth="184.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="39.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="106.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="un étudiant">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="39.0" layoutY="61.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="106.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="un enseignant">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="278.0" layoutY="174.0" prefHeight="152.0" prefWidth="208.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="134.0" layoutX="32.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/pngtree-view-icon-png-image_1869829.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="276.0" layoutY="303.0" prefHeight="174.0" prefWidth="208.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="26.0" layoutY="46.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="156.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="des étudiants">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="85.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="156.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="des enseignants">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="26.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consulter la liste">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Button layoutX="26.0" layoutY="125.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="156.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="des PFEs">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="535.0" layoutY="173.0" prefHeight="174.0" prefWidth="208.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="142.0" fitWidth="154.0" layoutX="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/hand.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="536.0" layoutY="322.0" prefHeight="158.0" prefWidth="208.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="7.0" layoutY="35.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="194.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="un encadrant à un PFE">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="7.0" layoutY="86.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="194.0" style="-fx-background-color: transparent; -fx-border-color: black;" text="un rapporteur à un PFE achevé">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="66.0" layoutY="7.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Affecter">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="42.0" layoutY="173.0" prefHeight="174.0" prefWidth="184.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="142.0" fitWidth="154.0" layoutX="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/person-add_icon-icons.com_50077.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="57.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ajouter">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

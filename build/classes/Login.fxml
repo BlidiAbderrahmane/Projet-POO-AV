@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #0598ff;">
+         <children>
+            <ImageView fitHeight="161.0" fitWidth="171.0" layoutX="95.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/graduation-cap-512.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="42.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE PROJETS">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="68.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" DE FIN D’ETUDES">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="342.0" prefHeight="500.0" prefWidth="350.0">
+         <children>
+            <TextField layoutX="118.0" layoutY="194.0" prefHeight="34.0" prefWidth="178.0" promptText="login" style="-fx-background-color: transparent; -fx-border-color: #0598; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField layoutX="119.0" layoutY="250.0" prefHeight="28.0" prefWidth="178.0" promptText="password" style="-fx-background-color: transparent; -fx-border-color: #0598; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button layoutX="140.0" layoutY="315.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="103.0" style="-fx-background-color: #0598ff;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font></Button>
+            <Text fill="#0598ff" layoutX="162.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="317.0" layoutY="7.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="25.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pics/icons8-close-32.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="82.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/icons8-user-30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="26.0" layoutX="82.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/icons8-key-24.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="70.0" layoutX="156.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pics/icons8-users-90.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
